@@ -27,6 +27,6 @@ echo "export NVM_DIR="$HOME/.nvm"
     [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
     [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion" >> ~/.zshrc
 nvm install --lts
-# set Keyboard -> (Key Repeat: fast, Delay Until Repeat: short)
+# set Keyboard -> (Key Repeat: fast, Delay Until Repeat: short, Use F1...)
 # disable cmd+shift+a -> Keyboard -> Shortcuts -> Services -> Search man Page Index in Terminal | https://stackoverflow.com/questions/64551974/best-way-to-fix-no-manual-entry-for-byte-type-a-when-try-to-seek-kotlin-byte
 ```
