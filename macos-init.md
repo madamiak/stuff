@@ -1,7 +1,7 @@
 # MacOS init
 ```
 xcode-select --install
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install --cask google-chrome
 brew install --cask iterm2 # run and add permissions, configure hotkey window, set as default profile, set font, turn on natural text editing
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
